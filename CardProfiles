@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Cards Are on the Table</title>
+	<link rel="stylesheet" type = "text/css" href="project1.css" />
+</head>
+<body>
+	<h1 id = "Title"> Meet the Team </h1>
+
+<div class = "cardBox" >
+	<div class = "flipper">
+		<div class = "Front">
+			<!-- Front of card contents go here -->
+			<img src="stAndrews.jpg" style = "width: 500px">
+
+		</div>
+		<div class = "Back">
+			<!-- Back of card contents go here -->
+			<h2 id = "studentName">Jason Poston</h2>
+			<ul id = "header2">Places Traveled:</ul>
+				<dl id = "list">Spain</dl>
+				<dl id = "list">France</dl>
+				<dl id = "list">Scotland</dl>
+				<dl id = "list">Netherlands</dl>
+				<dl id = "list">Peru</dl>
+				<dl id = "list">Mexico</dl>
+				<dl id = "list">Costa Rica</dl>
+				<dl id = "list">Canada</dl>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
