@@ -1,0 +1,74 @@
+/* CSS File for CardProfiles */
+
+#Title{
+	text-align: center;
+	font-family: "san-serif"
+}
+
+
+.cardBox {
+	perspective: 1000px;
+	border: 5px;
+}
+
+.cardBox:hover .flipper {
+	transform: rotateY(180deg);
+}
+
+.cardBox, .Front, .Back{
+	width: 320px
+	height: 427px;
+}
+
+.flipper{
+	transition: .6s;
+	transform-style: preserve-3d;
+	position: relative;
+	margin: 0;
+	border:0;
+	padding: 0;
+
+}
+
+.Front, .Back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: .6s
+	transform-style:preserve-3d;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.Front {
+	z-index: 2;
+	transform: rotateY(0deg);
+	/*background: lightgreen;*/
+}
+
+.Back{
+	width: 500px;
+	height: 375px;
+	transform: rotateY(180deg);
+	background: lightblue;
+	top:0px;
+	left:0px;
+	/*background-image: url("map.jpg");*/
+}
+
+#list{
+	text-align: center;
+}
+
+#studentName{
+	text-align: center;
+	margin: 16px;
+
+}
+#header2{
+	text-align: center;
+	padding: 0px;
+}
